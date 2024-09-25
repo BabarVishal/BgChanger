@@ -1,0 +1,67 @@
+
+
+/* App.css */
+
+/* Reset margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  /* Main background changer container */
+  .bgChanger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s ease-in-out; /* Smooth transition for background color change */
+  }
+  
+  /* Button container */
+  .button {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+  }
+  
+  /* General button styling */
+  button {
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out; /* Button transition effects */
+    outline: none;
+  }
+  
+  /* Individual button colors */
+  button:nth-child(1) {
+    background-color: #1e90ff; /* Blue */
+  }
+  
+  button:nth-child(2) {
+    background-color: #32cd32; /* Green */
+  }
+  
+  button:nth-child(3) {
+    background-color: #ff6347; /* Red */
+  }
+  
+  button:nth-child(4) {
+    background-color: #333; /* Black */
+  }
+  
+  /* Hover effect for all buttons */
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Button active state effect */
+  button:active {
+    transform: scale(0.95); /* Slight scale down on click */
+  }
+  
